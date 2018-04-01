@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euv
 
-gem install overcommit rubocop haml-lint bundler-audit
-npm install -g eslint jshint coffeelint csslint git-guilt
+gem install --update overcommit rubocop haml-lint bundler-audit
+npm install
 pip install yamllint --user
 
 overcommit --install
